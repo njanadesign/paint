@@ -1,0 +1,102 @@
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: inline-block;
+    background-color: #094FE0;
+}
+
+canvas {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+/* Color nav */
+
+nav.colors {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    overflow: visible;
+    max-width: 100vw;
+    
+
+
+
+
+
+    display: flex;
+    direction: vertical;
+    height: 50%;
+    
+    bottom: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+nav.colors a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+}
+
+
+
+/* Buttons nav */
+
+nav.buttons {
+
+    bottom: 40px;
+    position: fixed;
+    cursor: pointer;
+    outline:none;
+    font-family: Work Sans;
+
+}   
+
+/* Clear canvas */
+
+#clear {
+    padding: 15px 22px 15px 22px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    text-decoration: none;
+}   
+
+#clear:hover {
+    border: none;
+    color: black;
+    background: white;
+}
+
+
+/* Save artwork */
+
+#save {
+    margin-left: 9px;
+    padding: 15px 22px 15px 22px;
+    border-radius: 50px;
+    color: black;
+    background: white;
+    text-decoration: none;
+
+}
+
+#save:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+
+
+
+
+
+
+
