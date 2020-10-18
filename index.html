@@ -1,36 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>paint</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
-	
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"/>
+  </head>
 
-
-<body>
+  <body>
 
     <canvas></canvas>
 
-<nav class="colors">
-
-    <a href="#" style="background-color: #ff4141"></a>
-    <a href="#" style="background-color: #fef336"></a>
-    <a href="#" style="background-color: #ffffff"></a>
-
-</nav>
 
 
-<nav class="buttons">
-    <a id="clear">Clear</a>
-    <a id="save">Save your artwork!</a>
-</nav>
+    <!-- Color nav -->
 
-<img src="" id="imgCon">
+    <nav class="colors">
+      <a href="#" style="background-color: #ff4141"></a>
+      <a href="#" style="background-color: #fef336"></a>
+      <a href="#" style="background-color: #ffffff"></a>
+    </nav>
 
-<script src="painter.js"></script>
-<script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 
-</body>
+
+    <!-- Buttons nav -->
+
+    <nav class="buttons">
+      <a id="clear">Clear</a>
+      <a id="save">Save your artwork!</a>
+    </nav>
+
+
+
+    <!-- Scripts  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+    <script src="painter.js"></script>
+
+
+
+  </body>
 </html>

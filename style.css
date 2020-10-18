@@ -1,47 +1,41 @@
+
+html {
+
+    min-height: 100vh;
+    margin: 0;
+}
 body {
     min-height: 100vh;
-    min-width: 100vh;
-    display: inline-block;
+    margin: 0;
     background-color: #094FE0;
 }
 
 canvas {
-    min-height: 100vh;
-    min-width: 100vh;
+    position: fixed;
+    display: block;
 }
+
 
 /* Color nav */
 
 nav.colors {
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    display: flex;
-    overflow: visible;
-    max-width: 100vw;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 
-
-
-
-    display: flex;
-    direction: vertical;
-    height: 50%;
-    
-    bottom: 30px;
-    left: 30px;
+    position: absolute;
+    left: 40px;
     z-index: 1;
 }
+
 
 nav.colors a {
     display: block;
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    margin: 0 0 10px 0;
+    margin: 0 0 7px 10px;
 }
 
 
@@ -50,17 +44,23 @@ nav.colors a {
 
 nav.buttons {
 
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+    position: absolute;
     bottom: 40px;
-    position: fixed;
+    z-index: 1;
     cursor: pointer;
     outline:none;
     font-family: Work Sans;
-
 }   
 
 /* Clear canvas */
 
 #clear {
+
     padding: 15px 22px 15px 22px;
     border-radius: 50px;
     color: rgb(255, 255, 255);
@@ -78,6 +78,7 @@ nav.buttons {
 /* Save artwork */
 
 #save {
+
     margin-left: 9px;
     padding: 15px 22px 15px 22px;
     border-radius: 50px;
